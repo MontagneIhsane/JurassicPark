@@ -6,4 +6,12 @@ class Dinosaur {
     this.diet = diet;        
     this.status = status;    
     }
+
+    displayInfo() {
+        console.log(`Nom: ${this.name}`);
+        console.log(`Espèce: ${this.species}`);
+        console.log(`Âge: ${this.age} millions d'années`);
+        console.log(`Régime alimentaire: ${this.diet}`);
+        console.log(`État: ${this.status}`);
+    }
 }
