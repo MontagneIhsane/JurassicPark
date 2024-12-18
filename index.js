@@ -15,3 +15,15 @@ class Dinosaur {
         console.log(`État: ${this.status}`);
     }
 }
+
+class Herbivore extends Dinosaur {
+    constructor(name, species, age, diet, status, preferredPlant, plantType) {
+        super(name, species, age, diet, status); 
+        this.preferredPlant = preferredPlant;    
+        this.plantType = plantType;              
+    }
+
+    eatPlant() {
+    console.log(`${this.name} mange ${this.preferredPlant}.`);
+    }
+}
