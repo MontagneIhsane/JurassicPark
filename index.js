@@ -27,3 +27,15 @@ class Herbivore extends Dinosaur {
     console.log(`${this.name} mange ${this.preferredPlant}.`);
     }
 }
+
+class Carnivore extends Dinosaur {
+    constructor(name, species, age, diet, status, preferredPrey, preyType) {
+        super(name, species, age, diet, status); 
+        this.preferredPrey = preferredPrey;       
+        this.preyType = preyType;                 
+    }
+
+    hunt() {
+    console.log(`${this.name} chasse ${this.preferredPrey}.`);
+    }
+}
