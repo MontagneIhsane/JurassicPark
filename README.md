@@ -4,32 +4,32 @@
 
 Ce projet est une simulation de gestion de dinosaures et d'enclos dans un parc zoologique. Il inclut la création de classes, la gestion des états des dinosaures, et des interactions entre les dinosaures et leurs enclos.
 
-##Diagrammes
+## Diagrammes
 
-###Diagramme de séquence
+### Diagramme de séquence
 
 Ce diagramme illustre le processus d'ajout d'un dinosaure à un enclos.
 
-###Diagramme d'état
+### Diagramme d'état
 
 Ce diagramme représente le cycle de vie d'un dinosaure. 
 
-##Installation et utilisation
+## Installation et utilisation
 
-###Prérequis
+### Prérequis
 
 Node.js installé sur votre machine.
 
-##Étapes
+## Étapes
 
-###Clonez le dépôt :
+### Clonez le dépôt :
 
-`git clone https://github.com/votre-utilisateur/gestion-dinosaures.git``
+`git clone https://github.com/votre-utilisateur/gestion-dinosaures.git`
 
-###Accédez au répertoire :
+### Accédez au répertoire :
 
 `cd gestion-dinosaures`
 
-###Lancez le fichier principal pour tester les fonctionnalités :
+### Lancez le fichier principal pour tester les fonctionnalités :
 
 `node index.js`
