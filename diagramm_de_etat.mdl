@@ -1,0 +1,12 @@
+@startuml
+[*] --> Available : Initial State
+
+Available --> OnMission : Mission assigned
+OnMission --> Available : Mission completed
+
+Available --> Sick : Health deteriorates
+Sick --> Available : Recovers
+
+Sick --> OnMission : Reassigned during recovery (optional)
+
+@enduml
