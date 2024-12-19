@@ -12,7 +12,7 @@ Ce diagramme illustre le processus d'ajout d'un dinosaure à un enclos.
 
 ###Diagramme d'état
 
-Ce diagramme représente le cycle de vie d'un dinosaure.
+Ce diagramme représente le cycle de vie d'un dinosaure. 
 
 ##Installation et utilisation
 
