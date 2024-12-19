@@ -1,6 +1,6 @@
 # JurassicPark
 
-###Gestion des Dinosaures et des Enclos
+### Gestion des Dinosaures et des Enclos
 
 Ce projet est une simulation de gestion de dinosaures et d'enclos dans un parc zoologique. Il inclut la création de classes, la gestion des états des dinosaures, et des interactions entre les dinosaures et leurs enclos.
 
