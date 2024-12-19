@@ -1,0 +1,15 @@
+@startuml
+actor User
+participant Enclosure
+participant Dinosaur
+
+User -> Enclosure : addDinosaur(dinosaur)
+Enclosure -> Dinosaur : validateAttributes()
+Enclosure -> Enclosure : checkSpace()
+alt Space available
+    Enclosure -> Dinosaur : addToList()
+    Enclosure -> User : return success
+else Space not available
+    Enclosure -> User : return error
+end
+@enduml
